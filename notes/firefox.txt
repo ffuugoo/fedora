@@ -1,0 +1,23 @@
+Extensions:
+
+1Password
+Cookie AutoDelete
+
+uBlock Origin
+Privacy Badger
+LocalCDN
+User-Agent Switcher
+ClearURLs
+
+Web Scrobbler
+LanguageTool
+
+Enhancer for YouTube
+Return YouTube Dislike
+SponsorBlock
+
+Refined GitHub
+
+Rust Search Extension
+
+Select like a Boss

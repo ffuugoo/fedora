@@ -1,0 +1,43 @@
+[org/gnome/desktop/interface]
+clock-show-date=false
+clock-show-seconds=true
+show-battery-percentage=true
+font-antialiasing='rgba'
+font-hinting='slight'
+font-name='Cantarell 11'
+document-font-name='Arimo 11'
+monospace-font-name='Input Mono 11'
+
+[org/gnome/login-screen]
+allowed-failures=5
+
+[org/gnome/desktop/session]
+idle-delay=uint32 300
+
+[org/gnome/settings-daemon/plugins/power]
+power-button-action='suspend'
+sleep-inactive-ac-timeout=1800
+sleep-inactive-ac-type='nothing'
+
+[org/gnome/system/location]
+enabled=true
+
+[org/gnome/desktop/datetime]
+automatic-timezone=true
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-enabled=false
+
+[org/gnome/mutter]
+experimental-features=['kms-modifiers']
+
+[org/gnome/desktop/peripherals/keyboard]
+delay=uint32 200
+repeat-interval=uint32 13
+numlock-state=true
+
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'us'), ('xkb', 'ru')]
+
+[system/locale]
+region='en_GB.UTF-8'

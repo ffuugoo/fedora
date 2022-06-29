@@ -1,0 +1,4 @@
+- with-fingerprint is selected, make sure fprintd service is configured and enabled  {include if "with-fingerprint"}
+                                                                                     {include if "with-fingerprint"}
+- with-altfiles is selected, make sure nss_altfiles module is present                {include if "with-altfiles"}
+                                                                                     {include if "with-altfiles"}

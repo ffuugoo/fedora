@@ -1,0 +1,46 @@
+Local users only for basic installations
+==========================================
+
+Selecting this profile will enable local files as the source of identity
+and authentication providers.
+
+This profile can be used on systems that require basic installation to
+save disk and memory space. It serves only local users and groups directly
+from system files instead of going through remote authentication providers.
+
+AVAILABLE OPTIONAL FEATURES
+---------------------------
+
+with-fingerprint::
+    Enable authentication with fingerprint reader through pam_fprintd.
+
+with-faillock::
+    Enable account locking in case of too many consecutive
+    authentication failures.
+
+with-silent-lastlog::
+    Do not produce pam_lastlog message during login.
+
+without-nullok::
+    Do not add nullok parameter to pam_unix.
+
+with-altfiles::
+    Use nss_altfiles for passwd and group nsswitch databases.
+
+with-mdns4::
+    Enable multicast DNS over IPv4.
+
+with-mdns6::
+    Enable multicast DNS over IPv6.
+
+EXAMPLES
+--------
+
+* Enable basic profile
+
+  authselect select basic
+
+SEE ALSO
+--------
+* man passwd(5)
+* man group(5)

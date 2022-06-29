@@ -1,0 +1,745 @@
+kernel
+kernel-modules
+
+# kernel-headers
+# kernel-devel
+
+linux-firmware
+microcode_ctl
+
+shim-x64
+grub2-efi-x64
+
+# boom-boot
+# boom-boot-grub2
+
+efibootmgr
+
+busybox
+
+plymouth
+plymouth-system-theme
+
+# nvme-cli
+
+lvm2
+
+ntfsprogs
+exfatprogs
+dosfstools
+
+polkit
+
+policycoreutils
+
+dbus
+dbus-tools
+
+bluez
+
+NetworkManager
+NetworkManager-config-connectivity-fedora
+NetworkManager-bluetooth
+NetworkManager-wifi
+NetworkManager-wwan
+
+ModemManager
+
+firewalld
+# opensnitch # TODO
+
+openssh
+openssh-server
+openssh-clients
+
+# sshguard
+# sshguard-firewalld
+
+# fail2ban-server
+# fail2ban-firewalld
+# fail2ban-systemd
+# fail2ban-selinux
+
+# usbguard
+# usbguard-tools
+# usbguard-selinux
+# usbguard-notifier
+
+# fwupd
+# fwupd-efi
+# fwupd-plugin-flashrom
+# fwupd-plugin-modem-manager
+
+# tlp
+
+# keyutils
+
+
+zsh
+
+bash
+bash-completion
+
+nano
+vim-minimal
+vim-enhanced
+neovim
+
+sudo
+
+rsync
+
+bsdtar
+
+pigz
+
+zip
+unzip
+p7zip
+unrar
+
+git
+mercurial
+subversion
+
+diffutils
+
+patch
+patchutils
+
+tree
+
+sqlite
+
+
+gdm
+
+gnome-session
+gnome-session-wayland-session
+gnome-session-xsession
+
+gnome-shell
+
+gnome-backgrounds
+
+gnome-extensions-app
+chrome-gnome-shell
+
+gnome-shell-extension-appindicator
+gnome-shell-extension-caffeine
+
+dconf-editor
+gnome-tweaks
+
+gnome-keyring
+gnome-keyring-pam
+seahorse
+
+pavucontrol
+guvcview # RPM Fusion
+
+# firewall-applet
+# firewall-config
+
+# opensnitch-gui # TODO
+
+gnome-firmware
+
+power-profiles-daemon
+
+yelp
+
+
+nautilus
+
+file-roller
+file-roller-nautilus
+
+gnome-terminal
+gnome-terminal-nautilus
+
+# gnome-console
+# gnome-console-nautilus
+
+# sublime-text
+# https://www.sublimetext.com/download_thanks
+https://download.sublimetext.com/sublime-text-4126-1.x86_64.rpm
+
+# sublime-merge
+# https://www.sublimemerge.com/download_thanks
+https://download.sublimetext.com/sublime-merge-2074-1.x86_64.rpm
+
+
+gnome-system-monitor
+gnome-usage
+
+gnome-logs
+gnome-system-log
+
+gnome-disk-utility
+baobab
+
+WoeUSB
+
+# abrt
+# abrt-cli
+# abrt-tui
+# abrt-gui
+# abrt-addon-ccpp
+# abrt-addon-kerneloops
+# abrt-addon-pstoreoops
+# abrt-addon-vmcore
+# abrt-addon-xorg
+# abrt-plugin-bodhi
+# abrt-retrace-client
+# abrt-java-connector
+# python3-abrt
+# python3-abrt-addon
+# python3-abrt-doc
+# rubygem-abrt
+# rubygem-abrt-doc
+
+# htop
+# iotop
+# iotop-c
+# powertop
+
+# smartmontools
+# smartmontools-selinux
+
+# thermald
+# thermald-monitor
+
+
+# 1password
+https://downloads.1password.com/linux/rpm/stable/x86_64/1password-latest.rpm
+
+firefox
+# mozilla-openh264 # !?
+
+# mailspring
+# https://updates.getmailspring.com/download?platform=linuxRpm
+
+# geary
+
+# gnome-calendar
+# gnome-contacts
+# gnome-weather
+
+telegram-desktop # RPM Fusion
+# discord
+
+# teams
+# https://teams.microsoft.com/downloads/desktopurl?env=production&plat=linux&arch=x64&linuxArchiveType=rpm&download=true
+
+transmission-gtk
+# fragments
+
+dropbox # RPM Fusion
+nautilus-dropbox # RPM Fusion
+
+# syncthing
+# syncthing-gtk # TODO
+
+# gnome-shell-extension-gsconnect
+# nautilus-gsconnect
+
+# kde-connect
+# kde-connect-nautilus
+
+
+evince
+evince-nautilus
+
+foliate
+
+libreoffice-writer
+libreoffice-calc
+libreoffice-impress
+libreoffice-math
+libreoffice-langpack-en
+libreoffice-help-en
+libreoffice-gtk3
+
+simple-scan
+
+qalculate-gtk
+
+# espanso # TODO
+
+gnome-characters
+gucharmap
+
+gnome-font-viewer
+
+
+deadbeef # RPM Fusion
+deadbeef-mpris2-plugin # RPM Fusion
+
+picard
+
+celluloid # RPM Fusion
+mpv # RPM Fusion
+mpv-mpris # RPM Fusion
+
+# svp # TODO
+
+yt-dlp
+yt-dlp-bash-completion
+yt-dlp-zsh-completion
+
+gthumb
+
+# flameshot
+
+# gimp
+# gimp-help
+# mypaint-brushes
+
+# inkscape
+# inkscape-docs
+
+# krita
+
+perl-Image-ExifTool
+
+
+# steam
+
+# gamescope
+
+# mangohud
+# mangohud.i686
+
+# antimicrox
+# sc-controller # TODO
+# xboxdrv # TODO
+
+
+# bottles
+
+# wine
+
+# wine-core
+# wine-alsa
+# wine-pulseaudio
+# wine-openal
+# wine-cms
+
+# wine-core.i686
+# wine-alsa.i686
+# wine-pulseaudio.i686
+# wine-openal.i686
+# wine-cms.i686
+
+# mingw64-wine-gecko
+# mingw32-wine-gecko
+
+# wine-common
+# wine-fonts
+# wine-mono
+
+# wine-dxvk
+# wine-dxvk-d3d9
+# wine-dxvk-dxgi
+
+# wine-dxvk.i686
+# wine-dxvk-d3d9.i686
+# wine-dxvk-dxgi.i686
+
+# winetricks
+
+
+# gnome-boxes
+# virt-manager
+# virt-viewer
+
+# libvirt
+
+# qemu-system-x86
+# qemu-system-x86-core
+
+# qemu-img
+
+# seabios
+# edk2-ovmf
+# edk2-ovmf-ia32
+
+# spice-gtk-tools
+
+# qemu-guest-agent
+# spice-vdagent
+
+
+# gnome-connections
+
+# remmina
+# remmina-plugins-rdp
+# remmina-plugins-vnc
+# remmina-plugins-spice
+# remmina-plugins-secret
+
+
+# meld
+
+# sourcetrail
+# devhelp
+# zeal
+
+# glade
+# cambalache # TODO
+
+# valgrind
+# kcachegrind
+# qcachegrind
+
+# gitstatus # TODO
+
+ripgrep
+
+fzf
+# peco # TODO
+
+httpie
+jq
+
+
+binutils
+mold
+
+gcc
+gcc-c++
+gcc-gdb-plugin
+
+llvm
+clang
+clang-analyzer
+clang-tools-extra
+
+bear
+# compiledb # TODO
+# compdb # TODO
+
+# rust
+# rust-gdb
+# rust-lldb
+# rust-src
+# rust-doc
+
+# cargo
+# cargo-doc
+
+# clippy
+# rustfmt
+
+gdb
+gdb-doc
+
+lldb
+
+autoconf
+autoconf-archive
+automake
+libtool
+m4
+
+cmake
+
+meson
+
+make
+ninja-build
+
+pkgconf
+pkgconf-pkg-config
+
+
+bison
+flex
+
+apr-devel
+expat-devel
+openssl-devel
+pcre2-devel
+
+perl-XML-Simple
+
+
+# ansible
+
+# docker-desktop
+# https://docs.docker.com/desktop/release-notes/
+# https://desktop.docker.com/linux/main/amd64/docker-desktop-4.9.1-x86_64.rpm
+
+# docker-ce # EXT
+# docker-ce-cli # EXT
+# docker-compose-plugin # EXT
+# https://docs.docker.com/engine/install/fedora/#install-using-the-repository
+
+# podman
+# podman-compose
+# podman-tui
+
+# buildah
+
+
+adobe-source-sans-pro-fonts
+adobe-source-serif-pro-fonts
+adobe-source-code-pro-fonts
+
+google-arimo-fonts
+google-cousine-fonts
+google-tinos-fonts
+google-carlito-fonts
+ht-caladea-fonts
+
+twitter-twemoji-fonts
+
+terminus-fonts-console
+
+
+libwayland-server
+libwayland-client
+libwayland-cursor
+libwayland-egl
+
+xorg-x11-server-Xorg
+xorg-x11-server-Xwayland
+
+xorg-x11-drv-nvidia # RPM Fusion
+xorg-x11-drv-nvidia-cuda # RPM Fusion
+xorg-x11-drv-nvidia-power # RPM Fusion
+xorg-x11-drv-libinput
+
+mesa-dri-drivers
+mesa-vulkan-drivers
+
+libglvnd
+libglvnd-egl
+libglvnd-gles
+libglvnd-opengl
+libglvnd-glx
+
+vulkan-loader
+
+libva-vdpau-driver
+# nvidia-vaapi-driver # RPM Fusion
+
+libinput
+
+
+gtk4
+libadwaita
+
+gtk3
+libhandy
+
+# gtk2
+# gtk2-engines
+# gtk-murrine-engine
+# adwaita-gtk2-theme
+
+qgnomeplatform-qt6
+qgnomeplatform-qt5
+
+qt6-qtbase
+qt6-qtbase-gui
+qt6-qtdeclarative
+qt6-qtimageformats
+qt6-qtsvg
+qt6-qtmultimedia
+qt6-qtwayland
+qt6-qt5compat
+
+qt5-qtbase
+qt5-qtbase-gui
+qt5-qtdeclarative
+qt5-qtquickcontrols
+qt5-qtquickcontrols2
+qt5-qtimageformats
+qt5-qtsvg
+qt5-qtmultimedia
+qt5-qtwayland
+qt5-qtx11extras
+# qt5-qtwebengine
+# qt5-qtwebview
+
+
+clutter
+clutter-gtk
+clutter-gst3
+
+libcanberra
+libcanberra-gtk3
+# libcanberra-gtk2
+
+libappindicator-gtk3
+# libappindicator
+
+
+SDL2
+SDL2_gfx
+SDL2_image
+SDL2_mixer
+SDL2_net
+SDL2_sound
+SDL2_ttf
+
+sdl12-compat
+SDL_gfx
+SDL_image
+SDL_mixer
+SDL_net
+SDL_sound
+SDL_ttf
+SDL_Pango
+
+openal-soft
+
+portaudio
+
+
+alsa-lib
+alsa-sof-firmware
+
+pipewire
+pipewire-alsa
+pipewire-pulseaudio
+pipewire-jack-audio-connection-kit
+pipewire-gstreamer
+pipewire-v4l2
+pipewire-codec-aptx # RPM Fusion
+pipewire-utils
+wireplumber
+
+gstreamer1
+gstreamer1-plugins-base
+gstreamer1-plugins-base-tools
+gstreamer1-plugins-good
+gstreamer1-plugins-good-extras
+gstreamer1-plugins-good-gtk
+gstreamer1-plugins-good-qt
+gstreamer1-plugins-ugly-free
+gstreamer1-plugins-bad-free
+# gstreamer1-plugin-openh264 # !?
+# gstreamer1-vaapi
+gstreamer1-libav # RPM Fusion
+
+ffmpeg  # RPM Fusion
+
+v4l-utils
+v4l2loopback # RPM Fusion
+
+ImageMagick
+ImageMagick-djvu
+
+
+freetype
+fontconfig
+
+harfbuzz
+harfbuzz-icu
+
+libicu
+
+
+avahi
+# avahi-tools
+# avahi-ui-tools
+
+nss-mdns
+
+
+accountsservice
+
+at-spi2-core
+at-spi2-atk
+
+colord
+colord-gtk
+colord-gtk4
+
+dconf
+
+geoclue2
+
+gvfs
+gvfs-afc
+gvfs-mtp
+gvfs-gphoto2
+gvfs-smb
+
+ibus
+ibus-gtk4
+ibus-gtk3
+# ibus-gtk2
+# ibus-table
+# ibus-table-code
+# ibus-typing-booster
+
+
+samba
+samba-client
+cifs-utils
+
+cups
+cups-client
+cups-filters
+cups-pdf
+cups-pk-helper
+
+sane-backends
+sane-backends-drivers-scanners
+sane-backends-drivers-cameras
+sane-backends-daemon
+
+hplip
+
+
+langpacks-en
+langpacks-en_GB
+
+
+autocorr-en
+autocorr-ru
+
+hunspell
+hunspell-en
+hunspell-en-GB
+hunspell-en-US
+hunspell-ru
+
+hyphen
+hyphen-en
+hyphen-ru
+
+
+# enchant2
+# enchant2-aspell
+# enchant2-nuspell
+
+# enchant
+# enchant-aspell
+
+# aspell
+# aspell-en
+# aspell-ru
+
+# nuspell
+
+
+java-headless
+
+nodejs
+
+python3
+python3-setuptools
+python3-pip
+
+# ruby
+# ruby-doc
+# rubygem-bundler
+# rubygem-bundler-doc
+
+# tcl
+# tk

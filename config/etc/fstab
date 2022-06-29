@@ -1,0 +1,8 @@
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info.
+
+UUID=<EFI>                                 /boot/efi  vfat   defaults,shortname=winnt,umask=0077           0 2
+UUID=<BOOT>                                /boot      ext4   defaults,noatime                              0 2
+UUID=<ROOT>                                /          btrfs  defaults,subvol=root,compress=zstd:1,noatime  0 0
+UUID=<HOME>                                /home      btrfs  defaults,subvol=home,compress=zstd:1,noatime  0 0
+
+/dev/mapper/swap-swap                      none       swap   defaults,nofail,x-systemd.device-timeout=5s   0 0

@@ -1,0 +1,28 @@
+## Sudoers allows particular users to run various commands as
+## the root user, without needing the root password.
+##
+## This file must be edited with the 'visudo' command.
+
+Defaults !visiblepw
+Defaults passwd_timeout = 0
+Defaults timestamp_timeout = 5
+
+Defaults match_group_by_gid
+
+Defaults env_reset
+Defaults env_keep = "HOME"
+Defaults env_keep += "LANG"
+Defaults env_keep += "LC_MESSAGES LC_CTYPE LC_COLLATE LC_IDENTIFICATION"
+Defaults env_keep += "LC_TIME LC_NUMERIC LC_MONETARY"
+Defaults env_keep += "LC_IDENTIFICATION"
+Defaults env_keep += "LC_NAME LC_ADDRESS LC_TELEPHONE"
+Defaults env_keep += "LC_MEASUREMENT LC_PAPER"
+Defaults env_keep += "LANGUAGE"
+Defaults env_keep += "DISPLAY XAUTHORITY"
+
+Defaults secure_path = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+root    ALL=(ALL)  ALL
+%wheel  ALL=(ALL)  ALL
+
+#includedir /etc/sudoers.d

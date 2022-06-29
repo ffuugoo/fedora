@@ -1,0 +1,29 @@
+https://input.djr.com/build
+    ?fontSelection=whole
+        &a=ss
+        &g=ss
+        &i=serifs_round
+        &l=serifs_round
+        &zero=slash
+        &asterisk=0
+        &braces=straight
+        &preset=default
+        &line-height=1.2
+        &accept=I+do
+
+https://input.djr.com/build
+    ?fontSelection=fourStyleFamily
+        &regular=InputMono-Regular
+        &italic=InputMono-Italic
+        &bold=InputMono-Bold
+        &boldItalic=InputMono-BoldItalic
+        &a=ss
+        &g=ss
+        &i=serifs_round
+        &l=serifs_round
+        &zero=slash
+        &asterisk=0
+        &braces=straight
+        &preset=default
+        &line-height=1.2
+        &accept=I+do

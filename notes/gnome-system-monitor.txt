@@ -1,0 +1,40 @@
+Proc Tree:
+
+0  - Name
+12 - ID
+8  - CPU %
+15 - Memory
+26 - Priority
+1  - User
+9  - CPU Time
+3  - Virtual Memory
+4  - Residential Memory
+5  - Writable Memory
+6  - Shared Memory
+7  - X Server Memory
+11 - Nice
+2  - Status
+16 - Waiting Channel
+13 - SELinux Security Context
+17 - Control Group
+18 - Unit
+19 - Session
+20 - Seat
+21 - Owner
+22 - Disk read total
+23 - Disk write total
+24 - Disk read
+25 - Disk write
+10 - Started
+14 - Command Line
+
+
+Disk Tree:
+
+0 - Device
+1 - Directory
+2 - Type
+3 - Total
+4 - Free
+5 - Available
+6 - Used

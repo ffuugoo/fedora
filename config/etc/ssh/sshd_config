@@ -1,0 +1,93 @@
+# This is the sshd server system-wide configuration file.
+# See sshd_config(5) for more information.
+
+Include /etc/ssh/sshd_config.d/*.conf
+
+# If you want to change the port on a SELinux system,
+# you have to tell SELinux about this change.
+# semanage port -a -t ssh_port_t -p tcp <PORTNUMBER>
+
+#Port 22
+#AddressFamily any
+#ListenAddress 0.0.0.0
+#ListenAddress ::
+
+#HostKey /etc/ssh/ssh_host_rsa_key
+#HostKey /etc/ssh/ssh_host_ecdsa_key
+#HostKey /etc/ssh/ssh_host_ed25519_key
+
+#RekeyLimit default none
+
+SyslogFacility AUTHPRIV
+LogLevel INFO
+
+#LoginGraceTime 2m
+PermitRootLogin no
+StrictModes yes
+#MaxAuthTries 6
+#MaxSessions 10
+
+PubkeyAuthentication yes
+
+AuthorizedKeysFile .ssh/authorized_keys
+
+#AuthorizedPrincipalsFile none
+
+#AuthorizedKeysCommand none
+#AuthorizedKeysCommandUser nobody
+
+#HostbasedAuthentication no
+#IgnoreUserKnownHosts no
+#IgnoreRhosts yes
+
+PasswordAuthentication no
+PermitEmptyPasswords no
+
+KbdInteractiveAuthentication no
+
+#KerberosAuthentication no
+#KerberosOrLocalPasswd yes
+#KerberosTicketCleanup yes
+#KerberosGetAFSToken no
+#KerberosUseKuserok yes
+
+#GSSAPIAuthentication no
+#GSSAPICleanupCredentials yes
+#GSSAPIStrictAcceptorCheck yes
+#GSSAPIKeyExchange no
+#GSSAPIEnablek5users no
+
+UsePAM yes
+
+#AllowAgentForwarding yes
+#AllowTcpForwarding yes
+#GatewayPorts no
+X11Forwarding no
+#X11DisplayOffset 10
+#X11UseLocalhost yes
+#PermitTTY yes
+PrintMotd no
+PrintLastLog no
+#TCPKeepAlive yes
+#PermitUserEnvironment no
+#Compression delayed
+#ClientAliveInterval 0
+#ClientAliveCountMax 3
+#UseDNS no
+#PidFile /var/run/sshd.pid
+#MaxStartups 10:30:100
+#PermitTunnel no
+#ChrootDirectory none
+#VersionAddendum none
+
+#Banner none
+
+Subsystem sftp /usr/libexec/openssh/sftp-server
+
+AcceptEnv LANG
+AcceptEnv LC_MESSAGES LC_CTYPE LC_COLLATE LC_IDENTIFICATION
+AcceptEnv LC_TIME LC_NUMERIC LC_MONETARY
+AcceptEnv LC_IDENTIFICATION
+AcceptEnv LC_NAME LC_ADDRESS LC_TELEPHONE
+AcceptEnv LC_MEASUREMENT LC_PAPER
+AcceptEnv LANGUAGE

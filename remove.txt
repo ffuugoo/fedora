@@ -1,0 +1,11 @@
+audit
+initscripts-service
+
+memstrack
+
+sssd-client
+sssd-kcm
+
+yum
+
+zram-generator
