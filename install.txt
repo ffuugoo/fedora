@@ -306,38 +306,45 @@ perl-Image-ExifTool
 
 # steam
 
-# gamescope
+lgogdownloader
 
-# mangohud
-# mangohud.i686
+gamescope
+
+gamemode
+
+mangohud
+mangohud.i686
 
 # antimicrox
 # sc-controller # TODO
 # xboxdrv # TODO
 
 
-# bottles
+bottles
 
-# wine
+wine
 
-# wine-core
-# wine-alsa
-# wine-pulseaudio
-# wine-openal
-# wine-cms
+wine-core
+wine-alsa
+wine-pulseaudio
+wine-openal
+wine-cms
 
-# wine-core.i686
-# wine-alsa.i686
-# wine-pulseaudio.i686
-# wine-openal.i686
-# wine-cms.i686
+wine-core.i686
+wine-alsa.i686
+wine-pulseaudio.i686
+wine-openal.i686
+wine-cms.i686
 
-# mingw64-wine-gecko
-# mingw32-wine-gecko
+wine-common
+wine-fonts
+wine-mono
 
-# wine-common
-# wine-fonts
-# wine-mono
+mingw64-wine-gecko
+mingw32-wine-gecko
+
+mingw64-vkd3d
+mingw32-vkd3d
 
 # wine-dxvk
 # wine-dxvk-d3d9
@@ -347,7 +354,7 @@ perl-Image-ExifTool
 # wine-dxvk-d3d9.i686
 # wine-dxvk-dxgi.i686
 
-# winetricks
+winetricks
 
 
 # gnome-boxes
@@ -731,6 +738,7 @@ hyphen-ru
 java-headless
 
 nodejs
+npm
 
 python3
 python3-setuptools
